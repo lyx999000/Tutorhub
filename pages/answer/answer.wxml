@@ -1,0 +1,66 @@
+<!--answer.wxml-->
+<view class="container">
+    <view class="question" bindtap="toQuestion">
+        <text class="question-title">Test title</text>
+    </view>
+    <view class="answerer-wrp">
+        <view class="bg-half"></view>
+        <view class="answerer flex-wrp">
+            <view class="avatar flex-item">
+                <image src="../../images/icon1.jpeg"></image>
+            </view>
+            <view class="answerer-info flex-item">
+                <text class="answerer-name">User3</text>
+                <text class="answerer-des">Testb</text>
+            </view>
+            <view class="follow flex-item">
+                <text>Testa</text>
+            </view>
+        </view>
+    </view>
+    <view class="answer-content">
+        <text>test123
+
+        </text>
+        <image src="../../images/1444983318907-_DSC1826.jpg"></image>
+        <text>
+            test 456
+
+        </text>
+        <image src="../../images/1444983318907-_DSC1826.jpg"></image>
+    </view>
+
+    <view class="answer-footer flex-wrp">
+        <view class="good flex-item">
+            <view class="good-bad">
+                <image src="../../images/good-bad.png"></image>
+            </view>
+            <view class="good-num">2.1k</view>
+        </view>
+        <view class="operation-wrp flex-item">
+            <view class="operation flex-wrp flex-tab">
+                <view class="operation-btn flex-item">
+                    <image src="../../images/flag.png"></image>
+                    <text>aaa</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/heart2.png"></image>
+                    <text>bbb</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/star2.png"></image>
+                    <text>ccc</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/comment.png"></image>
+                    <text>111</text>
+                </view>
+
+            </view>
+        </view>
+
+
+
+    </view>
+</view>
+
